@@ -462,6 +462,9 @@ h6,
     border-color: var(--primary);
 }
 
+.team-item .mb-0 {
+    font-size: 1.16rem;
+}
 
 /*** Footer ***/
 .footer {
@@ -537,4 +540,8 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.row.g-4{
+    margin-bottom: 20px;
 }
