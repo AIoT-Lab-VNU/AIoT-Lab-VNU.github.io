@@ -545,3 +545,15 @@ h6,
 .row.g-4{
     margin-bottom: 20px;
 }
+
+
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+ }
+
+.Tiktok::before {
+   font: var(--fa-font-brands);
+    content: '\F6CC';
+ }
