@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AIoT Lab - Artificial Intelligence in IoT</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <img class="img-fluid" src="img/Logo_AIoT.png">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link active">About</a>
+                        <a href="publication.html" class="nav-item nav-link">Publications</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+<!--                                <a href="faq.html" class="dropdown-item">FAQs</a>-->
+                                <a href="news.html" class="dropdown-item">News</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="demo.html" class="dropdown-item">Demo Request</a>
+                                <a href="photos.html" class="dropdown-item">Photo Gallery</a>
+<!--                                <a href="404.html" class="dropdown-item">404 Page</a>-->
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+<!--
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+-->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">News</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">News</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Vision Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                    <style>
+            .my_font
+            {
+                font-family:    Arial, Helvetica, sans-serif;
+
+            }
+        </style>
+                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Headlines</div>
+                    <h1 class="mb-4">Headlines</h1>
+                    <h1 class="mb-4"></h1>
+
+
+
+                    <h5> <i style="font-size:24px;color:blue" class="fa">&#xf1ea;</i> <a href="https://www.facebook.com/aiotlab.vn/posts/pfbid0373yc2WcHx8irTGk7JnKrzJ9nK5WY8xQVp7CJX3ZcwM6Sy7jnGZsiAdG7wbMGfD6Tl?__cft__[0]=AZU-cE5oeqtARz7Gq3AYmUNXkYcODi-UZfp23rNwbKUsSZQE4iibnMvA7gJaicwBKMcCgDW1DqsUtZSPpxP8ch67Lxj0dC_1ZAd9a0Jc14iqazxfLFbe4Dj4p5bZxgeszOx1ilH0a_0DpwooeKCWXxQZ&__tn__=%2CO%2CP-R">
+                        1/8/2023 RECAP KHOẢNG KHẮC KHAI TRƯƠNG AIoT Lab VN - HÀNH TRÌNH MỚI BẮT ĐẦU </a></h5>
+<p class="my_font">Ngày 1/8/2023 tại Khu Công nghệ Phần mềm Đại Học Quốc TP. Hồ Chí Minh (ITP), tập thể thầy cô và các bạn sinh viên hân hoan
+                    chào đón ngày khai trương phòng thì nghiệm AIoT Lab VN, đánh dấu một bước ngoặt quan trọng trong hành trình nghiên cứu phát
+                    triển khoa học và đổi mới trong ứng dụng lĩnh vực Trí tuệ Nhân tạo (AI) kết hợp với Internet Vạn vật (IoT). <br>
+AIoT Lab VN được thành lập, kiến tạo môi trường nghiên cứu năng động, hội tụ những tâm huyết và khát vọng vươn tới tương lai thông minh và bền vững.
+                    AIoT Lab VN hứa hẹn trở thành phòng lab nghiên cứu khoa học và chuyển đổi công nghệ hàng đầu, đẩy mạnh sự đổi mới và phát triển công nghệ trong bối cảnh kinh tế chuyển đổi số và kết hợp sự hợp tác liên ngành.
+</p>
+
+
+                    <a class="btn btn-primary rounded-pill px-4 me-3" href="https://www.facebook.com/aiotlab.vn/posts/pfbid0373yc2WcHx8irTGk7JnKrzJ9nK5WY8xQVp7CJX3ZcwM6Sy7jnGZsiAdG7wbMGfD6Tl">Read More</a>
+
+
+                    <h5> <br> <a href="https://www.facebook.com/aiotlab.vn/posts/pfbid0373yc2WcHx8irTGk7JnKrzJ9nK5WY8xQVp7CJX3ZcwM6Sy7jnGZsiAdG7wbMGfD6Tl?__cft__[0]=AZU-cE5oeqtARz7Gq3AYmUNXkYcODi-UZfp23rNwbKUsSZQE4iibnMvA7gJaicwBKMcCgDW1DqsUtZSPpxP8ch67Lxj0dC_1ZAd9a0Jc14iqazxfLFbe4Dj4p5bZxgeszOx1ilH0a_0DpwooeKCWXxQZ&__tn__=%2CO%2CP-R">
+                        <p class ="my_font"> <i style="font-size:24px;color:blue" class="fa">&#xf1ea;</i> 1/8/2023 RECAP OF THE MOMENT AIoT Lab VN GRAND OPENING - A NEW JOURNEY STARTED </a></h5>
+On August 1st, 2023, at the National University Software Technology Park (ITP) in Ho Chi Minh City,
+                    the faculty and students joyfully welcomed the grand opening of the AIoT Lab VN, marking a significant
+                    milestone in the journey of scientific research and innovation in the application of
+                    Artificial Intelligence (AI) combined with the Internet of Things (IoT) field. <br>
+The establishment of AIoT Lab VN creates a dynamic research environment, bringing together passion and aspirations to strive toward an intelligent and sustainable future. AIoT Lab VN promises to become a leading scientific research and technology transformation laboratory, driving innovation and technological development in the context of digital transformation and inter-industry cooperation.
+</p>
+                    <a class="btn btn-primary rounded-pill px-4 me-3" href="https://www.facebook.com/aiotlab.vn/posts/pfbid0373yc2WcHx8irTGk7JnKrzJ9nK5WY8xQVp7CJX3ZcwM6Sy7jnGZsiAdG7wbMGfD6Tl">Read More</a>
+
+                    <figure style='text-align: center'>
+                        <br>
+                        <img src="img/thanhlapaiotlabvn.png" width="100%"/>
+                        <figcaption>Figure. AIoT Lab VN Grand Opening</figcaption>
+
+                    </figure>
+
+
+
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Latest News</div>
+                    <h1 class="mb-4">AIoT Lab Fanpage</h1>
+
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faiotlab.vn&tabs=timeline&width=500&height=1500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="1500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vision End -->
+
+   <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-white-50 footer pt-5">
+     <div class="container py-5">
+       <div class="row g-5">
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+           <a href="index.html" class="d-inline-block mb-3">
+             <img class="img-fluid" src="img/Logo_AIoT.png">
+           </a>
+           <p class="mb-0">Focused on innovation and collaboration, the lab drives advancements in technology, empowering sustainable growth and transformative solutions for the nation's future.</p>
+         </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+           <h5 class="text-white mb-4">Get In Touch</h5>
+           <p>
+             <i class="fa fa-map-marker-alt me-3"></i>Room 207, Information Technology Park, Vietnam National University Ho Chi Minh City (ITP), Linh Trung Ward, Thuc Duc City, Ho Chi Minh City, Vietnam
+           </p>
+           <p>
+             <i class="fa fa-phone-alt me-3"></i>(028) 37244270 ext. 3232
+           </p>
+           <p>
+             <i class="fa fa-envelope me-3"></i>info@aiotlab.vn
+           </p>
+           <div class="d-flex pt-2">
+             <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/aiotlab.vn">
+               <i class="fab fa-facebook-f"></i>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@aiotlabvn">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                 <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+               </svg>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCAoka7OSzy_KUtwYrGjyHHg">
+               <i class="fab fa-youtube"></i>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/aiot-lab-vn-b96070286/">
+               <i class="fab fa-linkedin-in"></i>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+           <h5 class="text-white mb-4">Popular Link</h5>
+           <a class="btn btn-link" href="about.html">About Us</a>
+           <a class="btn btn-link" href="contact.html">Contact Us</a>
+           <a class="btn btn-link" href="publication.html">Publications</a>
+           <a class="btn btn-link" href="project.html">Projects</a>
+         </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+           <h5 class="text-white mb-4">Our Services</h5>
+           <a class="btn btn-link" href="">Research and Development</a>
+           <a class="btn btn-link" href="">Education & Science</a>
+           <a class="btn btn-link" href="">Prototyping and Product Development</a>
+           <a class="btn btn-link" href="">Collaborative Projects</a>
+           <a class="btn btn-link" href="">Technology Transfer</a>
+         </div>
+       </div>
+     </div>
+     <div class="container wow fadeIn" data-wow-delay="0.1s">
+       <div class="copyright">
+         <div class="row">
+           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> &copy; <a class="border-bottom" href="#">AIoT Lab</a>, All Right Reserved. </div>
+           <div class="col-md-6 text-center text-md-end">
+             <div class="footer-menu">
+               <a href="">Home</a>
+               <a href="">Cookies</a>
+               <a href="">Help</a>
+               <a href="">FAQs</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
