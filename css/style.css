@@ -557,3 +557,7 @@ h6,
    font: var(--fa-font-brands);
     content: '\F6CC';
  }
+
+ .navbar-brand > img{
+    height: 50px;
+ }
