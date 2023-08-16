@@ -542,7 +542,7 @@ h6,
     border-right: none;
 }
 
-.row.g-4{
+.row.g-4, .col-lg-4 .row{
     margin-bottom: 20px;
 }
 
@@ -561,3 +561,7 @@ h6,
  .navbar-brand > img{
     height: 50px;
  }
+
+ /* .row .col-lg-6{
+    width: 45%;
+ } */
