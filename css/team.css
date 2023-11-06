@@ -1,0 +1,11 @@
+@media screen and (max-width: 780px) {
+    .btnContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .btnContainer button {
+        margin-top: 10px;
+    }
+}
